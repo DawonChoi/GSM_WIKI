@@ -6,7 +6,4 @@
 
 # DB
 - 회원 정보(이름, id, pw, e-mail)
-- 회원 등급
-
-'
-jnkhbkh 
+- 회원 등급(option)
