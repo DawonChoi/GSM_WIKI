@@ -1,2 +1,10 @@
-# GSM_WIKI
-GSM WIKI by media wiki engine
+# 로그인창
+- 라이언 폼 그대로 쓰기
+- 회원가입 기능 구현
+- 로그인 기능 구현
+- 로그아웃 기능 구현
+
+# DB
+- 회원 정보(이름, id, pw, e-mail)
+- 회원 등급
+
