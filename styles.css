@@ -20,6 +20,15 @@
     padding-top: 15px;
   
   }
+
+
+.stnum{
+    margin-left:5px;
+}
+
+.stin{
+    color:blue;
+}
   
   #wiki_title {
     justify-content: left;
