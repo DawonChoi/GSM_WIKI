@@ -275,8 +275,8 @@ app.get('/', function(req, res){
                 <!--<a href="#" onclick="closeNav();setMode('easy');reload();">Easy wiki</a>-->
             </div>
               <form action="http://localhost:8080" method="GET">
-                <input type="text" name = "stnum" placeholder="학번 입력">
-                <input type="submit" value="로그인">
+                <input class="stnum" type="text" name = "stnum" placeholder="학번 입력">
+                <input class="stin" type="submit" value="로그인">
           
               </form>
             </div>
