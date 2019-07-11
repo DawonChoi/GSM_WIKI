@@ -1,0 +1,254 @@
+:root {
+    --color-snow: #ffffff;
+    --color-red: #F32C52;
+    --color-green: #3dd28d;
+    --color-grey: #7999a9;
+  
+    --color-border: #90B1F2;
+  }
+  
+  .login_text{
+    margin-left:20px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 73%;
+    margin: auto;
+    padding-top: 15px;
+  
+  }
+  
+  #wiki_title {
+    justify-content: left;
+  }
+  
+  body {
+    margin: 0% auto;
+    background: #f2f2f2;
+    color: #444444;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    text-shadow: 0 1px 0 #ffffff;
+    max-width: 100%;
+  }
+  
+  code {
+    background: white;
+  }
+  
+  a {
+    color: #444444;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    border-bottom: 0;
+  }
+  
+  /*
+   * HEADER
+   */
+  
+  .header {
+    display: block;
+    overflow: hidden;
+    background-color: #E2E2E2;
+    padding: 10px 10px;
+  
+  }
+  
+  .header a {
+    float: left;
+    color: #444444;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+  }
+  
+  /* Change the background color on mouse-over */
+  /* .header a:hover {
+    background-color: #ddd;
+    color: black;
+  } */
+  
+  .menubutton {
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    padding: 0px 13px;
+  }
+  
+  /*
+   * Title
+   */
+  
+  .title {
+    text-align: center;
+    font-size: 48px;
+    text-shadow: 2px 5px 10px #e0e0e4;
+  
+    margin-top: 22px;
+    margin-bottom: -13px;
+  }
+  
+  /*
+   * INPUT FIELD
+   */
+  
+  .container-input {
+    border: 0px solid grey;
+    margin-top: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.8;
+    margin-right: 15px;
+    padding: 0 10px;
+  
+    width: 100%;
+  
+    border-style: hidden;
+    border-bottom: 1px solid var(--color-border);
+    background-color: inherit;
+  
+    box-shadow: 0px 2px 1px var(--color-border);
+  
+  }
+  
+  .input-field:focus {
+    outline: none;
+    font-size: 30px;
+    caret-color: var(--color-border);
+  }
+  
+  /*
+   * BUTTON
+   */
+  
+  .button {
+    display: block;
+    overflow: hidden;
+    outline: none;
+  
+    margin: 10px;
+    padding: 4px 4px;
+    margin-right: 0px;
+    min-width: 100px;
+  
+    border: none;
+  
+    cursor: pointer;
+    user-select: none;
+    transition: all 150ms linear;
+    text-align: center;
+    white-space: nowrap;
+  
+    color: var(--color-snow);
+    background: var(--color-border);
+    border-radius: 2px;
+  
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+  
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+  
+    flex: 0 0 23%;
+  
+    box-shadow: 2px 5px 10px #e4e4e4;
+  
+    }
+  
+  .button:hover {
+      transition: all 150ms linear;
+      opacity: .85;
+      outline: none;
+    }
+  
+  .button:active {
+      transition: all 150ms linear;
+      opacity: .75;
+  
+      outline: none;
+      border-radius: 10px;
+  
+      -moz-outline-style: none
+  }
+  
+  .button:focus {
+      outline: none;
+  }
+  
+  /*
+   * Side Nav
+   */
+  
+  #main {
+    transition: margin-right .5s;
+  }
+  
+  .sidenav {
+    background: rgb(190, 190, 190);
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    color: #444444;
+    padding: 4px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+    text-shadow: none;
+  }
+  
+  #cross {
+    padding-top: none;
+    padding: 3px 0px;
+  }
+  
+  #links {
+    margin-top: 30px;
+  }
+  
+  .sidenav a:hover {
+    color: var(--color-border);
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media only screen and (max-device-width: 812px){
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 86%;
+      margin: auto;
+      padding-top: 15px;
+  
+    }
+  }
